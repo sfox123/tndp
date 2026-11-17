@@ -1,0 +1,982 @@
+{
+  "source": "snapshot",
+  "fetchedAt": "2026-11-17T02:45:00Z",
+  "enso": {
+    "label": "Strong El Niño",
+    "code": "SE",
+    "roni": 2,
+    "season": "ASO",
+    "month": "2026-09"
+  },
+  "roniTenths": [-12, -11, -10, -10, -10, -7, -4, -3, -3, -4, -4, -5, -3, 1, 5, 6, 6, 7, 8, 10, 10, 10, 9, 7, 7, 3, 5, 2, 0, -4, -4, -1, 1, 0, -1, 1, 4, 7, 7, 7, 9, 8, 7, 7, 7, 8, 6, 7, 6, 6, 3, 0, -2, -2, -4, -6, -5, -3, -1, -2, -1, -1, -1, -4, -4, -5, -4, -7, -9, -13, -14, -13, -8, -4, -1, -1, 0, 0, -1, -2, -1, -1, -1, -2, 0, 2, 5, 8, 9, 9, 10, 11, 11, 12, 15, 18, 19, 18, 13, 10, 7, 6, 5, 3, 2, 2, 4, 6, 8, 8, 6, 5, 3, 1, -1, -2, -1, 0, 2, 2, 2, 2, 2, 3, 2, 1, 1, 2, 3, 1, -1, -1, 0, 1, 0, 1, 2, 3, 2, -1, -2, -2, -1, 0, 0, 0, 0, -2, -2, -1, 0, -1, -1, -3, -3, -4, -3, -1, 0, 1, 0, 4, 7, 11, 11, 11, 11, 11, 10, 6, 1, -4, -7, -7, -6, -5, -5, -6, -6, -5, -2, 1, 2, 4, 6, 10, 13, 15, 18, 19, 20, 18, 15, 13, 10, 6, 3, 2, 3, 2, 0, 0, -1, -2, -3, -2, -3, -3, -1, 2, 2, 0, -1, -1, 0, 0, -2, -4, -3, -3, 1, 3, 6, 5, 4, 6, 7, 10, 11, 10, 7, 4, 4, 3, 3, 3, 6, 7, 8, 7, 5, 2, 2, 2, 1, -2, -5, -6, -5, -6, -5, -8, -9, -10, -8, -6, -5, -4, -3, -2, -3, -4, -4, -4, -2, 0, 3, 5, 7, 9, 11, 14, 16, 18, 20, 19, 17, 13, 6, -2, -7, -10, -11, -12, -13, -16, -19, -19, -16, -13, -10, -8, -6, -5, -3, -2, -2, -4, -6, -3, -1, -1, -3, -4, -6, -7, -9, -9, -10, -9, -10, -11, -10, -6, -3, -1, 0, 3, 5, 7, 9, 10, 11, 11, 10, 9, 5, 3, 3, 5, 5, 5, 6, 9, 11, 11, 10, 7, 3, -1, -3, -2, -3, -3, -3, -1, 2, 3, 3, 3, 3, 2, 1, 0, 0, 3, 4, 5, 5, 6, 7, 5, 3, 1, 3, 3, 1, -1, -2, -1, 1, 1, 0, -2, -3, -2, -3, -3, -2, -2, 0, -2, -2, -1, 1, 2, 2, 5, 7, 8, 9, 11, 16, 20, 22, 24, 24, 22, 17, 13, 9, 5, 0, -2, -6, -9, -11, -10, -6, -5, -5, -6, -6, -5, -3, -2, -3, -6, -9, -9, -8, -7, -7, -8, -8, -5, -3, -2, -2, -2, -1, -2, -3, -3, -2, -1, -1, 0, 3, 6, 8, 10, 12, 14, 15, 14, 11, 9, 8, 9, 11, 13, 13, 12, 10, 8, 5, 1, -4, -9, -15, -17, -16, -14, -14, -17, -19, -19, -16, -14, -11, -9, -6, -4, -4, -4, -3, -2, -1, 1, 3, 3, 3, 3, 2, 2, 2, 3, 3, 3, 3, 4, 6, 5, 4, 4, 6, 7, 9, 8, 10, 12, 17, 20, 21, 21, 19, 18, 14, 9, 5, 3, 1, 1, 1, 4, 6, 7, 9, 11, 10, 8, 5, 5, 5, 5, 4, 4, 3, 2, 2, 3, 4, 4, 5, 6, 8, 10, 12, 13, 12, 9, 6, 2, -1, -2, -4, -6, -8, -9, -10, -10, -9, -7, -6, -4, -2, -2, -2, -2, -2, -2, -3, -3, -2, 0, 2, 5, 8, 12, 15, 18, 21, 22, 23, 23, 21, 18, 12, 8, 1, -5, -10, -11, -12, -13, -15, -16, -16, -13, -10, -9, -8, -8, -8, -9, -9, -11, -13, -16, -15, -13, -11, -9, -7, -5, -3, -3, -4, -5, -8, -8, -8, -6, -5, -4, -3, -1, 0, 0, 0, -2, -3, -3, -2, 0, 0, 1, 2, 4, 6, 8, 10, 12, 13, 11, 9, 5, 2, -2, -3, -2, 0, 1, 2, 2, 3, 2, 2, 1, 1, 1, 2, 4, 5, 7, 7, 7, 7, 7, 5, 4, 3, 3, 2, 1, -1, -1, 0, -2, -5, -8, -9, -9, -7, -5, -2, 0, 1, 4, 6, 7, 9, 9, 6, 2, -1, -3, -4, -4, -5, -8, -10, -13, -15, -16, -17, -16, -14, -10, -8, -5, -2, -2, -3, -4, -6, -9, -10, -9, -7, -4, 0, 2, 4, 4, 5, 9, 13, 15, 14, 11, 7, 1, -5, -10, -12, -14, -15, -16, -16, -15, -14, -12, -10, -8, -5, -3, -3, -4, -7, -9, -10, -10, -8, -6, -5, -4, -3, 0, 3, 4, 4, 2, 0, -3, -5, -6, -5, -4, -5, -5, -5, -4, -4, -2, -2, -3, -4, -4, -1, 1, 2, 0, -1, -1, 1, 4, 5, 6, 5, 5, 6, 7, 9, 10, 13, 15, 18, 20, 22, 23, 21, 18, 13, 7, 1, -4, -7, -8, -9, -10, -10, -9, -6, -4, -2, -1, 0, 0, -2, -5, -6, -8, -10, -11, -11, -10, -9, -7, -3, 0, 1, 2, 4, 6, 8, 8, 7, 6, 6, 5, 4, 2, 0, -1, 0, 2, 3, 2, 1, 1, 0, -3, -5, -7, -8, -8, -12, -14, -15, -14, -13, -12, -11, -9, -7, -6, -6, -8, -9, -11, -12, -12, -12, -11, -12, -13, -12, -9, -9, -9, -11, -11, -11, -10, -9, -7, -5, -3, 0, 3, 5, 8, 10, 13, 14, 14, 11, 8, 4, 0, -3, -4, -5, -6, -7, -8, -9, -10, -11, -8, -7, -5, -5, -4, -4, -6, -8, -9, -10, -10, -9, -8, -4, 0, 5, 10, 14, 17, 20],
+  "roniStart": "1950-01",
+  "events": [
+    {
+      "name": "1951–52",
+      "peak": 1,
+      "peakMonth": "1951-08",
+      "months": 11,
+      "strength": "Moderate"
+    },
+    {
+      "name": "1953–54",
+      "peak": 0.9,
+      "peakMonth": "1953-05",
+      "months": 13,
+      "strength": "Weak"
+    },
+    {
+      "name": "1957–58",
+      "peak": 1.9,
+      "peakMonth": "1958-01",
+      "months": 17,
+      "strength": "Strong"
+    },
+    {
+      "name": "1958–59",
+      "peak": 0.8,
+      "peakMonth": "1959-01",
+      "months": 5,
+      "strength": "Weak"
+    },
+    {
+      "name": "1963–64",
+      "peak": 1.1,
+      "peakMonth": "1963-08",
+      "months": 8,
+      "strength": "Moderate"
+    },
+    {
+      "name": "1965–66",
+      "peak": 2,
+      "peakMonth": "1965-11",
+      "months": 12,
+      "strength": "Super"
+    },
+    {
+      "name": "1968–69",
+      "peak": 1.1,
+      "peakMonth": "1969-01",
+      "months": 6,
+      "strength": "Moderate"
+    },
+    {
+      "name": "1969–70",
+      "peak": 0.8,
+      "peakMonth": "1969-11",
+      "months": 5,
+      "strength": "Weak"
+    },
+    {
+      "name": "1972–73",
+      "peak": 2,
+      "peakMonth": "1972-11",
+      "months": 12,
+      "strength": "Super"
+    },
+    {
+      "name": "1976–77",
+      "peak": 1.1,
+      "peakMonth": "1976-11",
+      "months": 9,
+      "strength": "Moderate"
+    },
+    {
+      "name": "1977–78",
+      "peak": 1.1,
+      "peakMonth": "1977-11",
+      "months": 9,
+      "strength": "Moderate"
+    },
+    {
+      "name": "1979–80",
+      "peak": 0.7,
+      "peakMonth": "1980-01",
+      "months": 5,
+      "strength": "Weak"
+    },
+    {
+      "name": "1982–83",
+      "peak": 2.4,
+      "peakMonth": "1982-12",
+      "months": 15,
+      "strength": "Super"
+    },
+    {
+      "name": "1986–88",
+      "peak": 1.5,
+      "peakMonth": "1987-01",
+      "months": 18,
+      "strength": "Strong"
+    },
+    {
+      "name": "1991–92",
+      "peak": 2.1,
+      "peakMonth": "1992-01",
+      "months": 15,
+      "strength": "Super"
+    },
+    {
+      "name": "1993",
+      "peak": 1.1,
+      "peakMonth": "1993-04",
+      "months": 10,
+      "strength": "Moderate"
+    },
+    {
+      "name": "1994–95",
+      "peak": 1.3,
+      "peakMonth": "1994-12",
+      "months": 9,
+      "strength": "Moderate"
+    },
+    {
+      "name": "1997–98",
+      "peak": 2.3,
+      "peakMonth": "1997-11",
+      "months": 13,
+      "strength": "Super"
+    },
+    {
+      "name": "2002–03",
+      "peak": 1.3,
+      "peakMonth": "2002-11",
+      "months": 8,
+      "strength": "Moderate"
+    },
+    {
+      "name": "2004–05",
+      "peak": 0.7,
+      "peakMonth": "2004-08",
+      "months": 7,
+      "strength": "Weak"
+    },
+    {
+      "name": "2006–07",
+      "peak": 0.9,
+      "peakMonth": "2006-11",
+      "months": 5,
+      "strength": "Weak"
+    },
+    {
+      "name": "2009–10",
+      "peak": 1.5,
+      "peakMonth": "2009-12",
+      "months": 7,
+      "strength": "Strong"
+    },
+    {
+      "name": "2014–16",
+      "peak": 2.3,
+      "peakMonth": "2015-12",
+      "months": 18,
+      "strength": "Super"
+    },
+    {
+      "name": "2018–19",
+      "peak": 0.8,
+      "peakMonth": "2018-11",
+      "months": 7,
+      "strength": "Weak"
+    },
+    {
+      "name": "2023–24",
+      "peak": 1.4,
+      "peakMonth": "2023-11",
+      "months": 8,
+      "strength": "Moderate"
+    },
+    {
+      "name": "2026",
+      "peak": 2,
+      "peakMonth": "2026-09",
+      "months": 5,
+      "strength": "Super"
+    }
+  ],
+  "probabilities": [
+    {
+      "season": "OND 2026",
+      "months": "Oct–Dec 2026",
+      "elNino": 1,
+      "neutral": 0,
+      "laNina": 0,
+      "strongPlus": 1
+    },
+    {
+      "season": "NDJ 2026",
+      "months": "Nov 2026–Jan 2027",
+      "elNino": 1,
+      "neutral": 0,
+      "laNina": 0,
+      "strongPlus": 1
+    },
+    {
+      "season": "DJF 2027",
+      "months": "Dec 2026–Feb 2027",
+      "elNino": 1,
+      "neutral": 0,
+      "laNina": 0,
+      "strongPlus": 1
+    },
+    {
+      "season": "JFM 2027",
+      "months": "Jan–Mar 2027",
+      "elNino": 1,
+      "neutral": 0,
+      "laNina": 0,
+      "strongPlus": 0.997
+    },
+    {
+      "season": "FMA 2027",
+      "months": "Feb–Apr 2027",
+      "elNino": 1,
+      "neutral": 0,
+      "laNina": 0,
+      "strongPlus": 0.937
+    },
+    {
+      "season": "MAM 2027",
+      "months": "Mar–May 2027",
+      "elNino": 1,
+      "neutral": 0,
+      "laNina": 0,
+      "strongPlus": 0.618
+    },
+    {
+      "season": "AMJ 2027",
+      "months": "Apr–Jun 2027",
+      "elNino": 0.92,
+      "neutral": 0.08,
+      "laNina": 0,
+      "strongPlus": 0.23
+    },
+    {
+      "season": "MJJ 2027",
+      "months": "May–Jul 2027",
+      "elNino": 0.6,
+      "neutral": 0.38,
+      "laNina": 0.02,
+      "strongPlus": 0.061
+    },
+    {
+      "season": "JJA 2027",
+      "months": "Jun–Aug 2027",
+      "elNino": 0.37,
+      "neutral": 0.51,
+      "laNina": 0.12,
+      "strongPlus": 0.03
+    }
+  ],
+  "probabilityRelease": "IRI, mid-October 2026",
+  "soi": {
+    "latest": {
+      "date": "2026-11-14",
+      "value": -12.7
+    },
+    "monthly": [
+      {
+        "date": "2025-10",
+        "value": 4.7
+      },
+      {
+        "date": "2025-11",
+        "value": 14
+      },
+      {
+        "date": "2025-12",
+        "value": 2
+      },
+      {
+        "date": "2026-01",
+        "value": 8.4
+      },
+      {
+        "date": "2026-02",
+        "value": 10.8
+      },
+      {
+        "date": "2026-03",
+        "value": 12.8
+      },
+      {
+        "date": "2026-04",
+        "value": -5.2
+      },
+      {
+        "date": "2026-05",
+        "value": -11
+      },
+      {
+        "date": "2026-06",
+        "value": -22.6
+      },
+      {
+        "date": "2026-07",
+        "value": -27.3
+      },
+      {
+        "date": "2026-08",
+        "value": -20.8
+      },
+      {
+        "date": "2026-09",
+        "value": -18.1
+      },
+      {
+        "date": "2026-10",
+        "value": -19
+      },
+      {
+        "date": "2026-11",
+        "value": -13.8
+      }
+    ],
+    "elNinoBelow": -7,
+    "laNinaAbove": 7
+  },
+  "iod": {
+    "weekly": [
+      {
+        "date": "2026-04-19",
+        "value": 0
+      },
+      {
+        "date": "2026-04-26",
+        "value": 0.08
+      },
+      {
+        "date": "2026-05-03",
+        "value": -0.01
+      },
+      {
+        "date": "2026-05-10",
+        "value": -0.05
+      },
+      {
+        "date": "2026-05-17",
+        "value": -0.17
+      },
+      {
+        "date": "2026-05-24",
+        "value": -0.35
+      },
+      {
+        "date": "2026-05-31",
+        "value": -0.44
+      },
+      {
+        "date": "2026-06-07",
+        "value": -0.35
+      },
+      {
+        "date": "2026-06-14",
+        "value": -0.14
+      },
+      {
+        "date": "2026-06-21",
+        "value": 0
+      },
+      {
+        "date": "2026-06-28",
+        "value": -0.04
+      },
+      {
+        "date": "2026-07-05",
+        "value": -0.17
+      },
+      {
+        "date": "2026-07-12",
+        "value": -0.07
+      },
+      {
+        "date": "2026-07-19",
+        "value": 0.24
+      },
+      {
+        "date": "2026-07-26",
+        "value": 0.43
+      },
+      {
+        "date": "2026-08-02",
+        "value": 0.61
+      },
+      {
+        "date": "2026-08-09",
+        "value": 0.4
+      },
+      {
+        "date": "2026-08-16",
+        "value": 0.18
+      },
+      {
+        "date": "2026-08-23",
+        "value": 0.17
+      },
+      {
+        "date": "2026-08-30",
+        "value": 0.21
+      },
+      {
+        "date": "2026-09-06",
+        "value": 0.24
+      },
+      {
+        "date": "2026-09-13",
+        "value": 0.63
+      },
+      {
+        "date": "2026-09-20",
+        "value": 0.68
+      },
+      {
+        "date": "2026-09-27",
+        "value": 0.75
+      },
+      {
+        "date": "2026-10-04",
+        "value": 0.59
+      },
+      {
+        "date": "2026-10-11",
+        "value": 0.88
+      },
+      {
+        "date": "2026-10-18",
+        "value": 0.88
+      },
+      {
+        "date": "2026-10-25",
+        "value": 0.69
+      },
+      {
+        "date": "2026-11-01",
+        "value": 0.73
+      },
+      {
+        "date": "2026-11-08",
+        "value": 0.75
+      }
+    ],
+    "positiveAbove": 0.4,
+    "negativeBelow": -0.4
+  },
+  "global": {
+    "peopleAtRisk": 909225066,
+    "croplandAtRiskMha": 104.23,
+    "croplandTotalMha": 618.9,
+    "period": "Nov–Jan"
+  },
+  "india": {
+    "croplandBelowNormalMha": 0,
+    "croplandAboveNormalMha": 3.5,
+    "croplandTotalMha": 69.7,
+    "period": "Nov–Jan",
+    "issued": "Oct 2026"
+  },
+  "tamilNadu": {
+    "waterStressScore": 4.005,
+    "waterStressHighShare": 0.7699,
+    "s2sIssued": "2026-11-14",
+    "weeks": [
+      {
+        "from": "2026-11-16",
+        "to": "2026-11-23",
+        "anomalyMm": -26.23,
+        "shareSignificant": 1,
+        "shareDrier": 0.8008,
+        "shareWetter": 0
+      },
+      {
+        "from": "2026-11-23",
+        "to": "2026-11-30",
+        "anomalyMm": -3.95,
+        "shareSignificant": 0,
+        "shareDrier": 0,
+        "shareWetter": 0
+      },
+      {
+        "from": "2026-11-30",
+        "to": "2026-12-07",
+        "anomalyMm": -14.91,
+        "shareSignificant": 1,
+        "shareDrier": 0.7989,
+        "shareWetter": 0
+      },
+      {
+        "from": "2026-12-07",
+        "to": "2026-12-14",
+        "anomalyMm": -16.03,
+        "shareSignificant": 1,
+        "shareDrier": 1,
+        "shareWetter": 0
+      },
+      {
+        "from": "2026-12-14",
+        "to": "2026-12-21",
+        "anomalyMm": -6.36,
+        "shareSignificant": 1,
+        "shareDrier": 0,
+        "shareWetter": 0
+      },
+      {
+        "from": "2026-12-21",
+        "to": "2026-12-28",
+        "anomalyMm": -2.67,
+        "shareSignificant": 0.5997,
+        "shareDrier": 0,
+        "shareWetter": 0
+      }
+    ],
+    "gefsIssued": "2026-11-16",
+    "daily": [
+      {
+        "date": "2026-11-16",
+        "rainMm": 0.17,
+        "tempC": 25.67
+      },
+      {
+        "date": "2026-11-17",
+        "rainMm": 0.11,
+        "tempC": 24.85
+      },
+      {
+        "date": "2026-11-18",
+        "rainMm": 0.48,
+        "tempC": 24.72
+      },
+      {
+        "date": "2026-11-19",
+        "rainMm": 5.29,
+        "tempC": 24.83
+      },
+      {
+        "date": "2026-11-20",
+        "rainMm": 13.74,
+        "tempC": 24.82
+      },
+      {
+        "date": "2026-11-21",
+        "rainMm": 7.52,
+        "tempC": 24.91
+      },
+      {
+        "date": "2026-11-22",
+        "rainMm": 4.03,
+        "tempC": 25
+      },
+      {
+        "date": "2026-11-23",
+        "rainMm": 2.97,
+        "tempC": 25.06
+      },
+      {
+        "date": "2026-11-24",
+        "rainMm": 3.22,
+        "tempC": 25
+      },
+      {
+        "date": "2026-11-25",
+        "rainMm": 2.94,
+        "tempC": 24.9
+      },
+      {
+        "date": "2026-11-26",
+        "rainMm": 0.56,
+        "tempC": 21.78
+      },
+      {
+        "date": "2026-11-27",
+        "rainMm": 2.88,
+        "tempC": 24.49
+      },
+      {
+        "date": "2026-11-28",
+        "rainMm": 2.97,
+        "tempC": 24.28
+      },
+      {
+        "date": "2026-11-29",
+        "rainMm": 1.31,
+        "tempC": 24.09
+      },
+      {
+        "date": "2026-11-30",
+        "rainMm": 1.07,
+        "tempC": 23.99
+      },
+      {
+        "date": "2026-12-01",
+        "rainMm": 1,
+        "tempC": 23.85
+      },
+      {
+        "date": "2026-12-02",
+        "rainMm": 0.15,
+        "tempC": 20.15
+      }
+    ],
+    "districts": [
+      {
+        "code": 449,
+        "name": "Ariyalur",
+        "lon": 79.21,
+        "lat": 11.14,
+        "anomalyMm": [-27.06, -8.74, -20.43, -20.87, -9.15, -3.68],
+        "drierPct": [100, 0, 100, 100, 0, 0],
+        "dryChancePct": [40, 46, 36],
+        "rain7dMm": 47.8,
+        "drySpellDays": 3,
+        "tmaxC": 31.7
+      },
+      {
+        "code": 450,
+        "name": "Chennai",
+        "lon": 80.24,
+        "lat": 13.04,
+        "anomalyMm": [3.18, -23.05, -25.12, -20.31, -13.22, -4.97],
+        "drierPct": [0, 50, 100, 100, 50, 0],
+        "dryChancePct": [44, 42, 35],
+        "rain7dMm": 162.9,
+        "drySpellDays": 2,
+        "tmaxC": 31.4
+      },
+      {
+        "code": 451,
+        "name": "Coimbatore",
+        "lon": 77.07,
+        "lat": 10.8,
+        "anomalyMm": [-16.24, -4, -9.56, -10.71, -3.33, -1.29],
+        "drierPct": [75, 0, 50, 50, 0, 0],
+        "dryChancePct": [43, 43, 37],
+        "rain7dMm": 20.7,
+        "drySpellDays": 4,
+        "tmaxC": 33.2
+      },
+      {
+        "code": 452,
+        "name": "Cuddalore",
+        "lon": 79.34,
+        "lat": 11.5,
+        "anomalyMm": [-27.06, -8.74, -20.43, -20.87, -9.15, -3.68],
+        "drierPct": [100, 0, 100, 100, 0, 0],
+        "dryChancePct": [40, 47, 36],
+        "rain7dMm": 41.1,
+        "drySpellDays": 3,
+        "tmaxC": 31.6
+      },
+      {
+        "code": 453,
+        "name": "Dharmapuri",
+        "lon": 78.1,
+        "lat": 12.32,
+        "anomalyMm": [-9.25, -5.34, -10.87, -10.32, -4.05, -1.62],
+        "drierPct": [0, 0, 100, 100, 0, 0],
+        "dryChancePct": [46, 41, 38],
+        "rain7dMm": 10.4,
+        "drySpellDays": 3,
+        "tmaxC": 31.3
+      },
+      {
+        "code": 454,
+        "name": "Dindigul",
+        "lon": 77.79,
+        "lat": 10.42,
+        "anomalyMm": [-29.57, -3.21, -12.92, -15.86, -5.75, -2.65],
+        "drierPct": [100, 0, 100, 100, 0, 0],
+        "dryChancePct": [43, 43, 37],
+        "rain7dMm": 12.1,
+        "drySpellDays": 4,
+        "tmaxC": 32.9
+      },
+      {
+        "code": 455,
+        "name": "Erode",
+        "lon": 77.37,
+        "lat": 11.27,
+        "anomalyMm": [-16.82, -4.67, -10.51, -11.65, -4.04, -1.63],
+        "drierPct": [67, 0, 67, 67, 0, 0],
+        "dryChancePct": [42, 44, 36],
+        "rain7dMm": 19.4,
+        "drySpellDays": 4,
+        "tmaxC": 32.2
+      },
+      {
+        "code": 456,
+        "name": "Kancheepuram",
+        "lon": 79.9,
+        "lat": 12.67,
+        "anomalyMm": [-4.24, -18.66, -23.82, -20.25, -11.69, -4.71],
+        "drierPct": [33, 33, 100, 100, 33, 0],
+        "dryChancePct": [45, 47, 36],
+        "rain7dMm": 99.6,
+        "drySpellDays": 2,
+        "tmaxC": 31.2
+      },
+      {
+        "code": 457,
+        "name": "Kanniyakumari",
+        "lon": 77.33,
+        "lat": 8.32,
+        "anomalyMm": [-40.49, 3.11, -9.31, -13.82, -4.42, -0.73],
+        "drierPct": [100, 0, 25, 75, 0, 0],
+        "dryChancePct": [52, 50, 39],
+        "rain7dMm": 14.9,
+        "drySpellDays": 3,
+        "tmaxC": 32.1
+      },
+      {
+        "code": 458,
+        "name": "Karur",
+        "lon": 78.15,
+        "lat": 10.81,
+        "anomalyMm": [-29.57, -3.21, -12.92, -15.86, -5.75, -2.65],
+        "drierPct": [100, 0, 100, 100, 0, 0],
+        "dryChancePct": [42, 43, 38],
+        "rain7dMm": 22.5,
+        "drySpellDays": 4,
+        "tmaxC": 34.2
+      },
+      {
+        "code": 459,
+        "name": "Madurai",
+        "lon": 77.95,
+        "lat": 9.93,
+        "anomalyMm": [-33.83, 1.51, -11.42, -14.04, -4.73, -2.18],
+        "drierPct": [100, 0, 50, 100, 0, 0],
+        "dryChancePct": [47, 46, 39],
+        "rain7dMm": 18.3,
+        "drySpellDays": 3,
+        "tmaxC": 33
+      },
+      {
+        "code": 460,
+        "name": "Nagapattinam",
+        "lon": 79.69,
+        "lat": 10.85,
+        "anomalyMm": [-27.06, -8.74, -20.43, -20.87, -9.15, -3.68],
+        "drierPct": [100, 0, 100, 100, 0, 0],
+        "dryChancePct": [41, 44, 36],
+        "rain7dMm": 58.7,
+        "drySpellDays": 3,
+        "tmaxC": 30.8
+      },
+      {
+        "code": 461,
+        "name": "Namakkal",
+        "lon": 78.07,
+        "lat": 11.29,
+        "anomalyMm": [-19.44, -4.27, -11.9, -13.1, -4.9, -2.13],
+        "drierPct": [50, 0, 100, 100, 0, 0],
+        "dryChancePct": [44, 44, 37],
+        "rain7dMm": 37.6,
+        "drySpellDays": 3,
+        "tmaxC": 33.6
+      },
+      {
+        "code": 462,
+        "name": "Nilgiris",
+        "lon": 76.62,
+        "lat": 11.44,
+        "anomalyMm": [-13.05, -3.73, -7.22, -8.33, -1.76, -0.46],
+        "drierPct": [100, 0, 0, 0, 0, 0],
+        "dryChancePct": [38, 40, 35],
+        "rain7dMm": 26.7,
+        "drySpellDays": 4,
+        "tmaxC": 25.2
+      },
+      {
+        "code": 463,
+        "name": "Perambalur",
+        "lon": 78.89,
+        "lat": 11.27,
+        "anomalyMm": [-23.25, -6.5, -16.16, -16.99, -7.03, -2.91],
+        "drierPct": [75, 0, 100, 100, 0, 0],
+        "dryChancePct": [44, 45, 38],
+        "rain7dMm": 45.1,
+        "drySpellDays": 3,
+        "tmaxC": 31.8
+      },
+      {
+        "code": 464,
+        "name": "Pudukkottai",
+        "lon": 78.85,
+        "lat": 10.28,
+        "anomalyMm": [-32.33, -5.38, -16.26, -18.74, -7.69, -2.92],
+        "drierPct": [100, 0, 100, 100, 0, 0],
+        "dryChancePct": [41, 43, 38],
+        "rain7dMm": 8.8,
+        "drySpellDays": 6,
+        "tmaxC": 32.7
+      },
+      {
+        "code": 465,
+        "name": "Ramanathapuram",
+        "lon": 78.86,
+        "lat": 9.51,
+        "anomalyMm": [-40.59, -1.65, -16.43, -18.41, -7.69, -3.85],
+        "drierPct": [100, 0, 75, 100, 25, 0],
+        "dryChancePct": [51, 45, 39],
+        "rain7dMm": 8.2,
+        "drySpellDays": 6,
+        "tmaxC": 32.5
+      },
+      {
+        "code": 466,
+        "name": "Salem",
+        "lon": 78.23,
+        "lat": 11.63,
+        "anomalyMm": [-14.12, -7.64, -16.06, -15.22, -6.36, -2.9],
+        "drierPct": [50, 0, 100, 100, 0, 0],
+        "dryChancePct": [44, 44, 37],
+        "rain7dMm": 12.3,
+        "drySpellDays": 3,
+        "tmaxC": 32.1
+      },
+      {
+        "code": 467,
+        "name": "Sivaganga",
+        "lon": 78.55,
+        "lat": 9.95,
+        "anomalyMm": [-40.59, -1.65, -16.43, -18.41, -7.69, -3.85],
+        "drierPct": [100, 0, 75, 100, 25, 0],
+        "dryChancePct": [48, 45, 39],
+        "rain7dMm": 7.5,
+        "drySpellDays": 6,
+        "tmaxC": 33.4
+      },
+      {
+        "code": 468,
+        "name": "Thanjavur",
+        "lon": 79.16,
+        "lat": 10.65,
+        "anomalyMm": [-35.08, -7.55, -19.61, -21.61, -9.63, -3.19],
+        "drierPct": [100, 0, 100, 100, 0, 0],
+        "dryChancePct": [41, 42, 37],
+        "rain7dMm": 29.6,
+        "drySpellDays": 3,
+        "tmaxC": 31.3
+      },
+      {
+        "code": 469,
+        "name": "Theni",
+        "lon": 77.43,
+        "lat": 9.86,
+        "anomalyMm": [-24.77, 0.62, -9.24, -11.47, -3.3, -1.17],
+        "drierPct": [100, 0, 25, 50, 0, 0],
+        "dryChancePct": [47, 46, 38],
+        "rain7dMm": 17.7,
+        "drySpellDays": 4,
+        "tmaxC": 32.2
+      },
+      {
+        "code": 470,
+        "name": "Thiruvallur",
+        "lon": 79.81,
+        "lat": 13.24,
+        "anomalyMm": [3.18, -23.05, -25.12, -20.31, -13.22, -4.97],
+        "drierPct": [0, 50, 100, 100, 50, 0],
+        "dryChancePct": [44, 42, 35],
+        "rain7dMm": 94.5,
+        "drySpellDays": 2,
+        "tmaxC": 31.1
+      },
+      {
+        "code": 471,
+        "name": "Thiruvarur",
+        "lon": 79.54,
+        "lat": 10.64,
+        "anomalyMm": [-35.08, -7.55, -19.61, -21.61, -9.63, -3.19],
+        "drierPct": [100, 0, 100, 100, 0, 0],
+        "dryChancePct": [42, 41, 36],
+        "rain7dMm": 45.3,
+        "drySpellDays": 3,
+        "tmaxC": 30.7
+      },
+      {
+        "code": 472,
+        "name": "Thoothukudi",
+        "lon": 78.01,
+        "lat": 8.84,
+        "anomalyMm": [-38.07, 6.2, -9.94, -12.22, -3.72, -1.71],
+        "drierPct": [100, 0, 0, 100, 0, 0],
+        "dryChancePct": [51, 48, 39],
+        "rain7dMm": 9,
+        "drySpellDays": 6,
+        "tmaxC": 32.3
+      },
+      {
+        "code": 473,
+        "name": "Tiruchchirappalli",
+        "lon": 78.57,
+        "lat": 10.84,
+        "anomalyMm": [-24.66, -5.37, -14.47, -15.94, -6.48, -2.49],
+        "drierPct": [67, 0, 100, 100, 0, 0],
+        "dryChancePct": [42, 44, 38],
+        "rain7dMm": 23.7,
+        "drySpellDays": 4,
+        "tmaxC": 34
+      },
+      {
+        "code": 474,
+        "name": "Tirunelveli",
+        "lon": 77.55,
+        "lat": 8.77,
+        "anomalyMm": [-41.45, 4.57, -9.43, -14.31, -4.47, -1.7],
+        "drierPct": [100, 0, 33, 67, 0, 0],
+        "dryChancePct": [51, 49, 39],
+        "rain7dMm": 22.3,
+        "drySpellDays": 4,
+        "tmaxC": 32.4
+      },
+      {
+        "code": 475,
+        "name": "Tiruvannamalai",
+        "lon": 79.18,
+        "lat": 12.41,
+        "anomalyMm": [-9.54, -10.19, -16.27, -14.88, -7.22, -2.85],
+        "drierPct": [33, 0, 100, 100, 0, 0],
+        "dryChancePct": [46, 46, 37],
+        "rain7dMm": 29.5,
+        "drySpellDays": 3,
+        "tmaxC": 30.3
+      },
+      {
+        "code": 476,
+        "name": "Vellore",
+        "lon": 79.09,
+        "lat": 12.72,
+        "anomalyMm": [-7.89, -9.27, -13.9, -13.14, -6.32, -2.52],
+        "drierPct": [25, 0, 75, 75, 0, 0],
+        "dryChancePct": [46, 44, 37],
+        "rain7dMm": 26.5,
+        "drySpellDays": 3,
+        "tmaxC": 30
+      },
+      {
+        "code": 477,
+        "name": "Villupuram",
+        "lon": 79.31,
+        "lat": 11.96,
+        "anomalyMm": [-18.99, -9.93, -21.25, -20.13, -8.66, -4.18],
+        "drierPct": [100, 0, 100, 100, 0, 0],
+        "dryChancePct": [43, 46, 36],
+        "rain7dMm": 35.7,
+        "drySpellDays": 3,
+        "tmaxC": 31.4
+      },
+      {
+        "code": 478,
+        "name": "Virudhunagar",
+        "lon": 77.86,
+        "lat": 9.48,
+        "anomalyMm": [-33.83, 1.51, -11.42, -14.04, -4.73, -2.18],
+        "drierPct": [100, 0, 50, 100, 0, 0],
+        "dryChancePct": [49, 47, 39],
+        "rain7dMm": 19.6,
+        "drySpellDays": 3,
+        "tmaxC": 32.6
+      }
+    ]
+  }
+}
