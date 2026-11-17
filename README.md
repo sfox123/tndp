@@ -26,6 +26,8 @@ Needs Node 20.9 or newer (Node 22.18+ for `npm test`).
 | `/` Framework | An animated tank-cascade scene, the stage selector, today's signal, and the five steps (Assess, Plan, Act, Advise, Learn) with the SukhaRakshak AI rail and the feedback loop. |
 | `/matrix` Contingency matrix | The stage-by-level matrix. Pick a stage and its column opens; below it, the districts an illustrative rule reads at that stage today. |
 | `/signal` Climate signal | The Pacific since 1950, the season outlook, SOI and IOD, then Tamil Nadu: weekly rainfall anomaly, daily rain, and a district map with adjustable trigger thresholds. |
+| `/plans` District plans | The 31 Tamil Nadu District Agriculture Contingency Plans, read from the SukhaRakshak contingency plan portal. |
+| `/plans/[district]` | One district's plan in the portal's layout: topics with icons, search, and every section with its tables. Read-only. |
 | `/api/signal` | The normalised figures as JSON. |
 
 **One stage drives everything.** The selected drought stage is written to `<html data-stage>`.
@@ -41,9 +43,30 @@ src/lib/triggers.ts         The illustrative trigger rule and its default thresh
 src/lib/enso/client.ts      Server-side reader for the ENSO Outlook API (live, cached, with fallback).
 src/lib/enso/normalise.ts   Pure functions: raw API response -> the app's Signal shape.
 src/lib/enso/snapshot.json  Figures captured on 17 November 2026, served when the API is unreachable.
+src/lib/plans/data.ts       Server-side reader for the Tamil Nadu plans in the portal's database (read-only, cached 1 h).
+src/lib/plans/              Topic, title and table parsing copied from sukharakshak-portal/lib. Keep them in step.
+src/components/plans/       Section renderer, topic icons and search box for the plan pages.
 src/components/Landscape.tsx  The tank-cascade illustration.
 src/app/globals.css         Design tokens and the per-stage variables (top of the file).
 ```
+
+## The district contingency plans
+
+The plans are edited and approved in the SukhaRakshak contingency plan portal
+(`sukharakshak-portal`). This site only shows what the portal has published for Tamil Nadu,
+so the portal keeps every state, including Tamil Nadu. An approved edit appears here within
+an hour.
+
+`src/lib/plans/data.ts` reads the portal's Supabase `sections` table on the server, filtered to
+`state = Tamil Nadu` and not deleted. It needs two values in `.env`, the same ones the portal uses:
+
+```
+NEXT_PUBLIC_SUPABASE_URL=...
+SUPABASE_SERVICE_ROLE_KEY=...   # server only; never sent to the browser
+```
+
+Without them the plan pages show a notice and the rest of the site works as before. `.env` is
+in `.gitignore`; do not commit it.
 
 ## The climate data
 

@@ -8,7 +8,12 @@ const LINKS = [
   { href: "/", label: "Framework" },
   { href: "/matrix", label: "Contingency matrix" },
   { href: "/signal", label: "Climate signal" },
+  { href: "/plans", label: "District plans" },
 ];
+
+// "/plans" stays highlighted on a district page ("/plans/ARIYALUR").
+const isCurrent = (pathname: string, href: string) =>
+  href === "/" ? pathname === "/" : pathname === href || pathname.startsWith(`${href}/`);
 
 export function SiteHeader() {
   const pathname = usePathname();
@@ -27,7 +32,7 @@ export function SiteHeader() {
         </Link>
         <nav className="nav" aria-label="Sections">
           {LINKS.map((link) => (
-            <Link key={link.href} href={link.href} aria-current={pathname === link.href ? "page" : undefined}>
+            <Link key={link.href} href={link.href} aria-current={isCurrent(pathname, link.href) ? "page" : undefined}>
               {link.label}
             </Link>
           ))}
